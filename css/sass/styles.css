@@ -1,6 +1,5 @@
 body {
   max-width: 1440px;
-  min-width: 375px;
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -11,5 +10,60 @@ body {
   body {
     margin: auto;
   }
+}
+
+header {
+  position: relative;
+  height: 363px;
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    background-image: url("../../images/bg-header-desktop.png");
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    background-image: url("../../images/bg-header-mobile.png");
+  }
+}
+
+#companyName {
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  top: 50px;
+  left: 50px;
+}
+
+#logo {
+  position: absolute;
+  top: 50px;
+  left: 195px;
+}
+
+#fb {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+#insta {
+  position: absolute;
+  top: 50px;
+  right: 120px;
+  height: 50px;
+  width: 50px;
+}
+
+#twitter {
+  position: absolute;
+  top: 50px;
+  right: 190px;
+  height: 50px;
+  width: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
