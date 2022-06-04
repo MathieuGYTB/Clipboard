@@ -29,6 +29,15 @@ header {
   }
 }
 
+@media screen and (min-width: 859px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+}
+
 #logo {
   position: absolute;
   height: 125px;
@@ -151,10 +160,14 @@ header {
   }
 }
 
-#topButton {
+#download {
   position: absolute;
   bottom: 50px;
   left: 45%;
+}
+
+#topButton {
+  margin-left: 20%;
 }
 
 #mobileImg {
@@ -169,10 +182,39 @@ header {
   width: 600px;
 }
 
+@media screen and (max-width: 1070px) {
+  #mobileImg {
+    height: 100px;
+    width: 200px;
+    right: 160px;
+    top: 55px;
+  }
+  #desktopImg {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  #desktopImg {
+    margin-left: 250px;
+  }
+  #mobileImg {
+    top: 600px;
+    right: 450px;
+  }
+}
+
 #text {
   width: 600px;
   margin-top: 70px;
   margin-left: 50px;
   margin-right: 180px;
+}
+
+@media screen and (max-width: 1070px) {
+  #text {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
