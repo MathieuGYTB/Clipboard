@@ -1,3 +1,6 @@
+.img
+  position: relative
+
 #mobileImg
   height: 200px
   width: 400px
@@ -21,9 +24,22 @@
 
 @media screen and (max-width: 859px)
   #desktopImg
-    margin-left: 250px
+    margin-left: 30%
 
   #mobileImg
-    top: 600px
-    right: 450px
+    top: 50px
+    left: 20%
 
+@media screen and (max-width: 450px)
+  #desktopImg
+    margin-left: 20%
+
+  #mobileImg
+    left: 10%
+
+@media screen and (max-width: 390px)
+  #desktopImg
+    margin-left: 15%
+  
+  #mobileImg
+    left: 3%
