@@ -151,9 +151,28 @@ header {
   }
 }
 
-.btn {
+#topButton {
   position: absolute;
   bottom: 0;
   left: 45%;
+}
+
+#mobileImg {
+  height: 200px;
+  width: 400px;
+  right: 320px;
+  top: 110px;
+}
+
+#desktopImg {
+  height: 400px;
+  width: 600px;
+}
+
+#text {
+  width: 600px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 180px;
 }
 /*# sourceMappingURL=styles.css.map */
